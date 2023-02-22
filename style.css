@@ -254,7 +254,7 @@ body {
 
 .rent-server:hover {
   background: #444;
-  text-fill-color: 
+  text-fill-color: black;
   transition: ease all 0.4s;
 }
 
