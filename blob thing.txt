@@ -1,0 +1,64 @@
+CSS:
+
+#blob {
+	background-color: white;
+	height: 250px;
+	aspect-ratio: 1;
+	position: absolute;
+	display: block;
+	z-index: -1;
+	left: 50%;
+	top: 50%;
+	translate: -50% -50%;
+	border-radius: 50%;
+	background: linear-gradient(
+		to right,
+		aquamarine,
+		mediumpurple
+	);
+	animation: rotate 20s infinite;
+	filter: blur(200px);
+	
+	
+}
+
+#blur {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: -2;
+	backdrop-filter: blur(200px);
+}
+
+@keyframes rotate {
+	from {
+		rotate: 0deg
+	}
+
+	50% {
+		scale: 1 1.5;
+	}
+
+	to {
+		rotate: 360deg;
+	}
+}
+
+JS:
+
+const blob = document.getElementById("blob");
+
+window.onpointermove = event => {
+  const { clientX, clientY } = event;
+
+  blob.animate({
+    left: `${clientX}px`,
+    top: `${clientY}px`
+  }, {duration: 3000, fill: "forwards" }); 
+
+}
+
+HTML:
+
+<div id="blob"></div>
+	<div id="blur"></div>
