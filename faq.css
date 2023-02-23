@@ -1,0 +1,27 @@
+.main-content {
+    background-color: white;
+    padding: 35px;
+    color: black;
+    border-radius: 10px;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 20%;
+}
+
+.right {
+  width: 60%;
+}
+
+.middle {
+  width: 45%;
+}
+
+.topic-heading {
+    text-align: center;
+}
