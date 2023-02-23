@@ -249,7 +249,7 @@ body {
 
 /* Dark mode */
 
-.dark-mode .pricing-plan {
+.light-mode .pricing-plan {
 	width: 300px;
 	border-radius: 25px;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
@@ -260,7 +260,7 @@ body {
 	margin: 15px;
 }
 
-.dark-mode .pricing-plan__special-text {
+.light-mode .pricing-plan__special-text {
 	padding: 10px;
 	text-align: center;
 	font-weight: bold;
@@ -269,13 +269,13 @@ body {
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2) inset;
 }
 
-.dark-mode .pricing-plan__header {
+.light-mode .pricing-plan__header {
 	padding: 25px;
 	background: #D3D3D3;
 	color: #333;
 }
 
-.dark-mode .pricing-plan__description {
+.light-mode .pricing-plan__description {
 	padding: 25px;
 	background: #f8f8f8;
 	color: #222;
@@ -283,7 +283,7 @@ body {
 	text-align: ce;
 }
   
-.dark-mode .pricing-plan__actions {
+.light-mode .pricing-plan__actions {
 	padding: 25px;
 	border-top: 3px solid #D3D3D3;
 	display: flex;
@@ -291,7 +291,7 @@ body {
 	background: #f8f8f8;
 }
   
-.dark-mode .pricing-plan__cost {
+.light-mode .pricing-plan__cost {
 	margin: 0;
 	text-align: center;
 	font-size: 2em;
@@ -299,7 +299,7 @@ body {
 	font-weight: 600;
 }
 
-.dark-mode .pricing-plan__text {
+.light-mode .pricing-plan__text {
 	font-size: 0.9em;
 	text-align: center;
 	margin: 0 0 10px 0;
@@ -307,39 +307,39 @@ body {
 	font-weight: 400;
 }
 
-.dark-mode .welcome {
+.light-mode .welcome {
 	color: #fff;
 }
 
-.dark-mode {
+.light-mode {
 	transition: ease all 0.3s;
 }
 
-.dark-mode .navbar {
+.light-mode .navbar {
 	background-color: #D3D3D3;
 	color: #fff;
 	transition: ease all 0.3s;
 }
 
-.dark-mode .navbar a {
+.light-mode .navbar a {
 	color: #333;
 }
 
-.dark-mode #dark-mode-btn {
+.light-mode #light-mode-btn {
 	background-color: #999;
 	color: #222;
 }
 
-.dark-mode #dark-mode-btn:hover {
+.light-mode #light-mode-btn:hover {
 	background-color: #777;
 }
 
-.dark-mode .header {
+.light-mode .header {
 	background-color: #D3D3D3;
 	transition: ease all 0.3s;
 }
 
-#dark-mode-btn {
+#light-mode-btn {
 	background-color: #555;
 	color: #D3D3D3;
 	border: none;
@@ -354,10 +354,10 @@ body {
 	left: 26px;
 }
 
-#dark-mode-btn:hover {
+#light-mode-btn:hover {
 	background-color: #777;
 }
 
-.dark-mode .login-button{
+.light-mode .login-button{
 	background: #D3D3D3;
 }
