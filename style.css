@@ -66,131 +66,6 @@ body {
 	color: #D3D3D3;
 }
 
-.pricing-plan {
-	width: 300px;
-	border-radius: 25px;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
-	overflow: hidden;
-	font-size: 16px;
-	line-height: 1.5;
-	color: #D3D3D3;
-	margin: 15px;
-}
-
-.pricing-plan__special-text {
-	padding: 10px;
-	text-align: center;
-	font-weight: bold;
-	color: #ffffff;
-	background: #555 ;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2) inset;
-}
-
-.pricing-plan__header {
-	padding: 25px;
-	background: #333;
-	color: #D3D3D3;
-}
-
-.pricing-plan__title 
-.pricing-plan__summary {
-	margin: 0;
-	text-align: center;
-}
-
-.pricing-plan__title {
-	font-size: 1.5rem;
-	font-weight: 700;
-	text-align: center;
-}
-
-.pricing-plan__summary {
-	font-size: 1em;
-	font-weight: 300;
-	text-align: center;
-}
-
-.pricing-plan__description {
-	padding: 25px;
-	background: #444;
-	color: #D3D3D3;
-}
-
-.pricing-plan__list {
-	padding: 0;
-	margin: 0;
-}
-
-.pricing-plan__feature {
-	list-style: none;
-	margin: 0;
-	padding-left: 25px;
-	position: relative;
-	font-size: 0.9rem;
-}
-
-.pricing-plan__feature:not(:last-child) {
-	margin-bottom: 0.5rem;
-}
-
-.pricing-plan__feature::before {
-	content: "\2714";
-	color: #009945;
-	position: absolute;
-	left: 0;
-}
-  
-.pricing-plan__actions {
-	padding: 25px;
-	border-top: 3px solid #D3D3D3;
-	display: flex;
-	flex-direction: column;
-	background: #444;
-}
-
-.pricing-plan__button {
-	display: inline-block;
-	margin: 15px auto;
-	padding: 8px 20px;
-	text-decoration: none;
-	color: #777;
-	background: #ffffff;
-	border-radius: 5px;
-	border: 1px solid #777;
-	text-transform: uppercase;
-	letter-spacing: 0.2rem;
-	font-weight: bold;
-}
-
-.pricing-plan__button:hover {
-	background: #999;
-	color: #ffffff;
-	transition: ease all 0.3s;
-	transform: scale(1.5,1.5);
-}
-  
-.pricing-plan__cost {
-	margin: 0;
-	text-align: center;
-	font-size: 2em;
-	color: #D3D3D3;
-}
-
-.pricing-plan__text {
-	font-size: 0.9em;
-	text-align: center;
-	margin: 0 0 10px 0;
-	color: #D3D3D3;
-	font-weight: 400;
-}
-
-.pricing-plan-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 10px;
-}
-
 .login-button {
 	padding: 5px 10px;
 	background-color: #333;
@@ -247,7 +122,7 @@ body {
 	transition: ease all 0.4s;
 }
 
-/* Dark mode */
+/* Light Mode */
 
 .light-mode .pricing-plan {
 	width: 300px;
