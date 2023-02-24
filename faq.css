@@ -6,8 +6,12 @@
     background: #222;
     box-shadow: 1px 0px 10px #111;
     margin-top: 90px;
-    
+    transition: transform 0.3s ease-in-out;
 
+}
+
+.main-content:hover {
+  transform: scale(1.03, 1.03);
 }
 
 .column {
