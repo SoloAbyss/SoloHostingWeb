@@ -279,3 +279,8 @@ body {
 .light-mode .login-button {
   background: #d3d3d3;
 }
+
+.light-mode .main-content {
+	background: #D3D3D3;
+	color: #222;
+}
