@@ -252,7 +252,7 @@ body {
   background-color: #777;
 }
 
-.light-mode .header {
+.light-mode .topnav {
   background-color: #d3d3d3;
   transition: ease all 0.3s;
 }
