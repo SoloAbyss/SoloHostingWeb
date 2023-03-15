@@ -22,3 +22,11 @@ lightModeButton.addEventListener("click", () => {
 window.addEventListener("unload", () => {
   window.localStorage.setItem("Settings", JSON.stringify(settings));
 });
+
+const navbar = document.getElementsByClassName("navbar")[0]
+const nonav = document.getElementById("nonav")
+nonav.addEventListener("click", () => {
+  navbar.animate({
+    left: '-200px'
+  }, {duration: 150, fill: "forwards" })
+})
