@@ -56,13 +56,10 @@ body.dark {
   width: 250px;
   padding: 10px 14px;
   background: var(--sidebar-color);
-  
+  transition: var(--tran-05);
   z-index: 100;
 }
 
-.sidebar.sidbar-transitions {
-  transition: var(--tran-05);
-}
 .sidebar.close {
   width: 88px;
 }
@@ -95,11 +92,6 @@ body.dark {
 .sidebar .text,
 .sidebar .icon {
   color: var(--text-color);
-  
-}
-
-.sidebar.sidebar-transitions .text,
-.sidebar.sidebar-transitions .icon {
   transition: var(--tran-03);
 }
 
@@ -164,14 +156,11 @@ header .image-text .profession {
   justify-content: center;
   font-size: 22px;
   cursor: pointer;
-  
+  transition: var(--tran-05);
 }
 
 body.dark .sidebar header .toggle {
   color: var(--text-color);
-}
-.sidebar.sidebar-transitions .toggle {
-  transition: var(--tran-05);
 }
 
 .sidebar.close .toggle {
@@ -203,12 +192,9 @@ body.dark .sidebar header .toggle {
   border-radius: 6px;
   font-size: 17px;
   font-weight: 500;
-  
-}
-
-.sidebar.sidebar-transitions li.search-box input {
   transition: var(--tran-05);
 }
+
 .sidebar li a {
   list-style: none;
   height: 100%;
@@ -219,10 +205,6 @@ body.dark .sidebar header .toggle {
   width: 100%;
   border-radius: 6px;
   text-decoration: none;
- 
-}
-
-.sidebar.sidebar-transitions li a {
   transition: var(--tran-03);
 }
 
@@ -252,10 +234,6 @@ body.dark .sidebar li a:hover .text {
   border-radius: 6px;
   background-color: var(--primary-color-light);
   position: relative;
-  
-}
-
-.sidebar.sidebar-transitions .menu-bar .mode {
   transition: var(--tran-05);
 }
 
@@ -294,10 +272,6 @@ body.dark .mode .sun-moon i.moon {
   width: 40px;
   border-radius: 25px;
   background-color: var(--toggle-color);
-  
-}
-
-.toggle-switch .switch.switch-tran {
   transition: var(--tran-05);
 }
 
@@ -311,10 +285,6 @@ body.dark .mode .sun-moon i.moon {
   left: 5px;
   transform: translateY(-50%);
   background-color: var(--sidebar-color);
-  
-}
-
-.switch::before.switch-tran {
   transition: var(--tran-04);
 }
 
@@ -335,9 +305,6 @@ body.dark .switch::before {
     rgba(82, 172, 221, 1) 0%,
     rgba(179, 76, 234, 1) 100%
   );
-}
-
-.home.home-tran {
   transition: var(--tran-05);
 }
 
@@ -522,4 +489,32 @@ body.dark .main-content {
 
 .topic-heading {
   text-align: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+  height: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 10px;
+  height: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+::-webkit-scrollbar-button {
+  height: 20px; /* vertical scrollbar height */
 }
