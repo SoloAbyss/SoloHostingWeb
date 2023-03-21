@@ -5,7 +5,9 @@ const body = document.querySelector("body"),
   modeSwitch = body.querySelector(".toggle-switch"),
   modeText = body.querySelector(".mode-text"),
   switch1 = body.querySelector(".switch"),
-  home = body.querySelector(".home"); 
+  home = body.querySelector(".home"),
+  closed = body.querySelector(".closed"); 
+  dropbtn = body.querySelector(".dropbtn")
 
 
 let settings = JSON.parse(window.localStorage.getItem("Settings") ?? "{}");
@@ -54,6 +56,7 @@ modeSwitch.addEventListener("click", () => {
 toggle between hiding and showing the dropdown content */
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
+  body.getElementsByClassName("dropbtn").classList.toggle("closed");
 }
 
 // Close the dropdown menu if the user clicks outside of it
@@ -69,3 +72,6 @@ window.onclick = function(event) {
     }
   }
 }
+
+
+

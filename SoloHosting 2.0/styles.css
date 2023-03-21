@@ -531,8 +531,12 @@ body.dark .main-content {
   font-size: 16px;
   border: none;
   cursor: pointer;
-  border-radius: 15px;
+  border-radius: 15px 15px 0px 0px;
   font-weight: 400;
+}
+
+.dropbtn.closed {
+  border-radius: 15px;
 }
 
 /* Dropdown button on hover & focus */
@@ -554,11 +558,7 @@ body.dark .main-content {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  border-radius: 15px
-  
-  
-  
-  ;
+  border-radius: 0px 0px 15px 15px;
 }
 
 /* Links inside the dropdown */
