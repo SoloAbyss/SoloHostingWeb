@@ -531,12 +531,12 @@ body.dark .main-content {
   font-size: 16px;
   border: none;
   cursor: pointer;
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 15px;
   font-weight: 400;
 }
 
 .dropbtn.closed {
-  border-radius: 15px;
+  border-radius: 15px 15px 0px 0px;
 }
 
 /* Dropdown button on hover & focus */
@@ -567,6 +567,7 @@ body.dark .main-content {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  font-size: 15px;
 }
 
 /* Change color of dropdown links on hover */

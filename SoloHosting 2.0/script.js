@@ -56,7 +56,7 @@ modeSwitch.addEventListener("click", () => {
 toggle between hiding and showing the dropdown content */
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
-  body.getElementsByClassName("dropbtn").classList.toggle("closed");
+  body.getElementsByClassName("dropbtn")[0].classList.toggle("closed");
 }
 
 // Close the dropdown menu if the user clicks outside of it
